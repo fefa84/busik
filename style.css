@@ -1,30 +1,28 @@
 body {
     background:#fefefe;
+  
 }
-h2 {
+
+.main { 
+    max-width: 1400px;
+    margin: 0 auto;
+       
+}
+
+.header__subtitle {
     color:#1460AA;
 }
-
-.booking {
-    background:#2e3532;
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.contact {
-    background:#dbd3d8;
-}
-
-.about {
-    background:#d8b4a0;
-}
-
-.offer {
-    background:#818d92;
-}
-
-.pricing {
-    background:#EFF1F3;
-}
-
-.testimonials {
-    background:#bfd1e5;
+.find-out {
+    border:5px solid #2e3532;
+    border-radius:20px;
+    height: 400px;
+    width: 300px;
+    margin:20px;
+    padding:1em;
+    
 }
