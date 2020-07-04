@@ -1,28 +1,80 @@
 body {
-    background:#fefefe;
-  
+    background:#B9CBC3;
+
 }
 
-.main { 
-    max-width: 1400px;
-    margin: 0 auto;
-       
+.header__description {
+    color:#423B0B;
 }
 
 .header__subtitle {
-    color:#1460AA;
+    color:#064789;
 }
+
+.header__title {
+    color:#064789;
+    font-size: 70px;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  max-width: 1400px;
+margin: 0 auto;
+}
+
+
+.find-out__offer{
+    background:#759AAB;
+}
+.find-out__about {
+    background:#C2B9AE;
+}
+
+.find-out__pricing {
+    background:#F79D84;
+}
+
+.find-out__booking{
+    background:#FA8334;
+}
+
+.find-out__testimonials {
+    background:#BC9CB0;
+}
+.find-out__contact {
+    background:#FAF2A1;
+
 }
 
 .find-out {
-    border:5px solid #2e3532;
+    border:3px solid #695D12;
     border-radius:20px;
     height: 400px;
     width: 300px;
     margin:20px;
     padding:1em;
+    background:#FDC55E;
     
+}
+
+.footer {
+    text-align:center;
+}
+.common-header__navigation {
+    background:#FBF5F3;
+    border-radius:10px;
+    padding:2em;
+    margin:1em;
+}
+
+.main__header {
+    background:#FAF2A1;
+}
+.navigation__link {
+    display:inline-block;
+    color:#695D12;
+    font-size: 20px;
+    margin-right:20px;
+
 }
