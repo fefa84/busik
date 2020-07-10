@@ -24,6 +24,7 @@ body {
     font-size: 70px;
 }
 
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -70,19 +71,23 @@ margin: 0 auto;
     text-align:center;
 }
 .common-header__navigation {
+    display:flex;
     background:#FBF5F3;
     border-radius:10px;
     padding:2em;
     margin:1em;
+    justify-content:space-around;
+
 }
 
 .main__header {
     background:#FAF2A1;
+    display:flex;
+    justify-content: space-around;
 }
 .navigation__link {
-    display:inline-block;
     color:#695D12;
     font-size: 20px;
-    margin-right:20px;
+    
 
 }
