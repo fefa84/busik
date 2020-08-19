@@ -10,3 +10,8 @@ function greet (firstName, lastName) {
 
 greet(firstName, lastName);
 
+const hamburger=document.querySelector('.hamburger--js');
+hamburger.addEventListener('click', ()=>{
+    const nav =document.querySelector('.common-header__navigation--js');
+    nav.classList.toggle('common-header__navigation--open')
+});
